@@ -1,0 +1,48 @@
+.div1 h1{
+    color: red;
+    
+}
+
+article{
+    display: flex;
+    padding: 20px;
+    text-shadow: 2px 2px 10px black;
+}
+.div1{
+    margin:auto 80px auto 30px;
+}
+
+*{
+    padding: 0%;
+    margin:auto;
+    /* text-shadow: 2px 2px 4px black; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 38px; */
+    background-color: black;
+    color: white;
+    height: 60px;
+    box-shadow: 0px 0px 77px 0px black;
+    /* border-radius: 100px; */
+    text-shadow: 2px 2px 8px rgb(228, 0, 0);
+    
+}
+.ull ul{
+    display: flex;
+    list-style: none;
+}
+.ull ul li a{
+    padding: 0% 5px;
+    text-decoration: none;
+    color: white;;
+    font-weight: bold;
+    transition: all ease .5s;
+}
+.ull ul li a:hover{
+    color: blue;
+    text-shadow: 2px 2px 10x rgb(255, 255, 255);
+
+}
